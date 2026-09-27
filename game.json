@@ -2,6 +2,32 @@
   "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Lock Picking",
   "description": "Test your timing and precision to pick the locks.",
+  "about": "Lock Picking is a browser game where you click the spinning lock when the moving pointer aligns with its target. Clear all stages without missing.\n\nStart a round in your browser and use the controls below to play.",
+  "howToPlay": "Click the spinning lock when the moving pointer aligns with its target. Clear all stages without missing.",
+  "controls": [
+    {
+      "input": "Click / tap the lock",
+      "action": "Try the current alignment"
+    },
+    {
+      "input": "Play again",
+      "action": "Restart"
+    }
+  ],
+  "tips": [
+    "Use click / tap the lock to try the current alignment.",
+    "Try another round to practice the timing and strategy."
+  ],
+  "faq": [
+    {
+      "question": "How do I play Lock Picking?",
+      "answer": "Click the spinning lock when the moving pointer aligns with its target. Clear all stages without missing."
+    },
+    {
+      "question": "Can I play Lock Picking in a browser?",
+      "answer": "Yes. Open the game page and play without installing an app."
+    }
+  ],
   "category": "Casual",
   "tags": [
     "lock",
@@ -9,6 +35,9 @@
     "timing",
     "casual"
   ],
-  "author": "PewPlay",
-  "playMode": "SinglePlayer"
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "draft": true,
+  "author": "PewPlay"
 }
