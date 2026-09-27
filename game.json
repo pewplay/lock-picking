@@ -1,8 +1,14 @@
 {
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Lock Picking",
   "description": "Test your timing and precision to pick the locks.",
-  "keywords": ["lock", "puzzle", "timing", "casual"],
   "category": "Casual",
+  "tags": [
+    "lock",
+    "puzzle",
+    "timing",
+    "casual"
+  ],
   "author": "PewPlay",
   "playMode": "SinglePlayer"
 }
