@@ -1,43 +1,54 @@
 {
   "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Lock Picking",
-  "description": "Test your timing and precision to pick the locks.",
-  "about": "Lock Picking is a browser game where you click the spinning lock when the moving pointer aligns with its target. Clear all stages without missing.\n\nStart a round in your browser and use the controls below to play.",
-  "howToPlay": "Click the spinning lock when the moving pointer aligns with its target. Clear all stages without missing.",
+  "description": "Crack a five-digit lock by clicking at the exact moment the spinning pick lines up with each glowing pin, a free minimalist timing game for your browser.",
+  "about": "Lock Picking is a minimalist reflex game built around one clean idea: a green pick spins around the dial and a glowing pin waits somewhere on the ring. Click or tap the dial just as the pick passes over the pin to set that digit and move on to the next one.\n\nEvery successful pick flips the direction of the spin and places a new pin at a random spot, so you can never settle into a rhythm. You need to land five picks in a row to open the lock, and a single mistimed click sends you back to the start.\n\nThe calm dark design and quiet animations make it a relaxing way to test your timing, while the one-mistake rule keeps every attempt tense right up to the final digit.",
+  "howToPlay": "Watch the green pick travel around the circle and click or tap the circle when it overlaps the glowing pin. Each hit counts down one digit and spins the pick the other way toward a new pin. Hit all five digits to win; clicking when the pick is away from the pin ends the attempt.",
   "controls": [
     {
-      "input": "Click / tap the lock",
-      "action": "Try the current alignment"
+      "input": "Click / Tap",
+      "action": "Pick the pin when the pointer lines up"
     },
     {
-      "input": "Play again",
-      "action": "Restart"
+      "input": "Click Play Again",
+      "action": "Start a new lock after a win or a miss"
     }
   ],
   "tips": [
-    "Use click / tap the lock to try the current alignment.",
-    "Try another round to practice the timing and strategy."
+    "Click slightly before the pick reaches the pin, since it keeps moving while your finger comes down.",
+    "After each hit the spin reverses, so find the new pin before you start timing.",
+    "Do not hesitate too long: the pick stops spinning about 15 seconds after each click, and a stopped pick away from the pin cannot be saved.",
+    "Tap anywhere inside the circle: the whole dial works as the button."
   ],
   "faq": [
     {
-      "question": "How do I play Lock Picking?",
-      "answer": "Click the spinning lock when the moving pointer aligns with its target. Clear all stages without missing."
+      "question": "Is Lock Picking free to play?",
+      "answer": "Yes. Lock Picking is completely free and runs in your browser with no download or sign-up."
     },
     {
-      "question": "Can I play Lock Picking in a browser?",
-      "answer": "Yes. Open the game page and play without installing an app."
+      "question": "Can I play Lock Picking on a phone or tablet?",
+      "answer": "Yes. Just tap the circle at the right moment; the game works the same with touch as with a mouse."
+    },
+    {
+      "question": "What happens if I miss?",
+      "answer": "One missed click ends the attempt and shows a Play Again button, which starts a fresh lock with five digits."
     }
   ],
   "category": "Casual",
   "tags": [
-    "lock",
-    "puzzle",
     "timing",
-    "casual"
+    "reflex",
+    "minimalist",
+    "one tap",
+    "lock"
   ],
+  "author": "PewPlay",
   "playMode": "SinglePlayer",
   "orientation": "any",
   "cover": "cover.png",
-  "draft": true,
-  "author": "PewPlay"
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ]
 }
