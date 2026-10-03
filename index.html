@@ -2,32 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Lock Picking</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="container">
-  <div id="circle2">
-    <div class="point"></div>
+  <canvas id="game" aria-label="Lock Picking: tap when the pick touches the pin"></canvas>
+  <div id="hud">
+    <div id="stats" aria-live="polite"></div>
+    <button type="button" id="mute" class="icon" aria-label="Mute sound" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="spk" d="M4 9h4l5-4v14l-5-4H4z"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/><path class="x" d="M16 9l5 6M21 9l-5 6"/></svg>
+    </button>
   </div>
-  <p></p>
-  <div id="circle">
-    <div id="pointer">
+  <div id="hint"></div>
+  <div id="overlay" class="show">
+    <div class="panel">
+      <h1 id="ovTitle">Lock Picking</h1>
+      <p id="ovText">Tap when the green pick touches the glowing pin.<br>Set five pins in a row to open the lock.<br>One miss and you start over.</p>
+      <button type="button" id="ovBtn" class="btn">Start</button>
     </div>
   </div>
-</div>
-  <div id="retry" class="hidden" role="button">
-    play again
-  </div>
-  <div id="retry2" class="hidden" role="button">
-    <h1>you win.</h1>
-    <p>play again</p>
-  </div>
-<!-- partial -->
-  <script src="./script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>

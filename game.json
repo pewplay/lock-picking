@@ -1,24 +1,32 @@
 {
   "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Lock Picking",
-  "description": "Crack a five-digit lock by clicking at the exact moment the spinning pick lines up with each glowing pin, a free minimalist timing game for your browser.",
-  "about": "Lock Picking is a minimalist reflex game built around one clean idea: a green pick spins around the dial and a glowing pin waits somewhere on the ring. Click or tap the dial just as the pick passes over the pin to set that digit and move on to the next one.\n\nEvery successful pick flips the direction of the spin and places a new pin at a random spot, so you can never settle into a rhythm. You need to land five picks in a row to open the lock, and a single mistimed click sends you back to the start.\n\nThe calm dark design and quiet animations make it a relaxing way to test your timing, while the one-mistake rule keeps every attempt tense right up to the final digit.",
-  "howToPlay": "Watch the green pick travel around the circle and click or tap the circle when it overlaps the glowing pin. Each hit counts down one digit and spins the pick the other way toward a new pin. Hit all five digits to win; clicking when the pick is away from the pin ends the attempt.",
+  "description": "Crack a five-digit lock by tapping at the exact moment the spinning pick lines up with each glowing pin, a free minimalist timing game for desktop and mobile.",
+  "about": "Lock Picking is a minimalist reflex game built around one clean idea: a green pick spins around the dial and a glowing pin waits somewhere on the ring. Tap or click just as the pick passes over the pin to set that digit and move on to the next one.\n\nEvery successful pick flips the direction of the spin, speeds it up a little and places a new pin further along the ring, so you can never settle into a rhythm. You need to land five picks in a row to open the lock, and a single mistimed tap sends you back to the start. The game keeps count of the locks you have opened and your best streak.\n\nThe calm dark design, soft sounds and quiet animations make it a relaxing way to test your timing, while the one-mistake rule keeps every attempt tense right up to the final digit. The dial grows to fill any screen, from a desktop monitor to a phone in either orientation.",
+  "howToPlay": "Press Start, then watch the green pick travel around the circle. Tap anywhere on the screen, click, or press Space when the pick overlaps the glowing pin. Each hit sets one digit and spins the pick the other way, a little faster, toward a new pin. Set all five digits to open the lock; tapping when the pick is away from the pin ends the attempt.",
   "controls": [
     {
-      "input": "Click / Tap",
-      "action": "Pick the pin when the pointer lines up"
+      "input": "Tap / Click anywhere",
+      "action": "Pick the pin when the pick lines up"
     },
     {
-      "input": "Click Play Again",
+      "input": "Space / Enter",
+      "action": "Pick the pin, or start a new lock"
+    },
+    {
+      "input": "Play Again button",
       "action": "Start a new lock after a win or a miss"
+    },
+    {
+      "input": "M / Speaker button",
+      "action": "Mute or unmute the sound"
     }
   ],
   "tips": [
-    "Click slightly before the pick reaches the pin, since it keeps moving while your finger comes down.",
-    "After each hit the spin reverses, so find the new pin before you start timing.",
-    "Do not hesitate too long: the pick stops spinning about 15 seconds after each click, and a stopped pick away from the pin cannot be saved.",
-    "Tap anywhere inside the circle: the whole dial works as the button."
+    "Tap slightly before the pick reaches the pin, since it keeps moving while your finger comes down.",
+    "After each hit the spin reverses and gets a bit faster, so find the new pin before you start timing.",
+    "You can tap anywhere on the screen, so keep your thumb resting in a comfortable spot.",
+    "There is no penalty for letting the pick pass the pin: wait for the next lap if you are not sure."
   ],
   "faq": [
     {
@@ -27,11 +35,11 @@
     },
     {
       "question": "Can I play Lock Picking on a phone or tablet?",
-      "answer": "Yes. Just tap the circle at the right moment; the game works the same with touch as with a mouse."
+      "answer": "Yes. Tap anywhere on the screen at the right moment; the dial fills the screen in portrait and landscape, and it plays the same with touch, mouse or keyboard."
     },
     {
       "question": "What happens if I miss?",
-      "answer": "One missed click ends the attempt and shows a Play Again button, which starts a fresh lock with five digits."
+      "answer": "One missed tap ends the attempt and resets your streak. Press Play Again to start a fresh lock with five digits."
     }
   ],
   "category": "Casual",
